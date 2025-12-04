@@ -1,0 +1,12 @@
+# Storage Location for All Input PDFs
+All input PDF files required by the project will be stored in this designated folder. 
+This directory acts as the primary input source for any processing tasks, conversions, 
+validations, or automated workflows that rely on PDF documents.
+Please ensure the following:
+All original PDFs are placed in this folder before running any script or tool that interacts with input documents.
+The folder name and structure remain unchanged, as several components of the project may reference this location directly.
+Only raw, unmodified input PDFs are stored here to maintain consistency and avoid confusion with generated or processed files.
+When sharing or deploying the project, confirm that this folder is included to ensure all necessary input files are available for proper functionality.
+Team members working collaboratively should always upload new input PDFs to this folder to keep the workflow synchronized.
+Maintaining this directory correctly ensures reliable document handling and smooth operation of all features that depend on 
+PDF inputs throughout development and testing.
