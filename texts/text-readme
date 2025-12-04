@@ -1,0 +1,11 @@
+# Storage Location for Converted Text Files
+All PDFs that undergo text conversion will be stored in a designated folder within the project directory. 
+This folder serves as the central repository for all extracted text files, ensuring that converted content is organized, 
+easy to locate, and accessible for further processing or review.
+Please ensure that:
+The folder path remains unchanged to avoid breaking references within the project.
+Only converted text output from PDFs is stored here to maintain a clean and consistent structure.
+The directory is included when cloning, pulling, or deploying the project so that all team members can access the converted resources.
+Any automated scripts or tools that rely on these text files are configured to read from this folder.
+Maintaining this folder properly helps streamline workflow, enhances collaboration, and ensures reliable access to all 
+converted text resources throughout the development lifecycle.
