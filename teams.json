@@ -1,0 +1,17 @@
+{
+  "company_name": "FlairEX",
+  "teams": [
+    { "team_name": "Financial Team", "team_lead": "Anish", "lead_email": "anish@flairex.net", "department": "Finance" },
+    { "team_name": "Technical Team", "team_lead": "Hruthkesh", "lead_email": "hruthkesh@flairex.net", "department": "Engineering" },
+    { "team_name": "Corporate", "team_lead": "Omkar", "lead_email": "omkar@flairex.net", "department": "Administration" },
+    { "team_name": "HR Team", "team_lead": "Aditya", "lead_email": "aditya@flairex.net", "department": "Human Resources" },
+    { "team_name": "IT Team", "team_lead": "Meena", "lead_email": "meena@flairex.net", "department": "Information Technology" },
+    { "team_name": "Project Management", "team_lead": "Prajwal", "lead_email": "prajwal@flairex.net", "department": "Operations" },
+    { "team_name": "Customer Support", "team_lead": "Arya", "lead_email": "arya@flairex.net", "department": "Customer Relations" },
+    { "team_name": "Marketing", "team_lead": "Surya", "lead_email": "surya@flairex.net", "department": "Marketing" },
+    { "team_name": "Business Development", "team_lead": "Rahul", "lead_email": "rahul@flairex.net", "department": "Sales" },
+    { "team_name": "Hardware Development", "team_lead": "Dev", "lead_email": "dev@flairex.net", "department": "Engineering" },
+    { "team_name": "R and D", "team_lead": "Dakshin", "lead_email": "dakshin@flairex.net", "department": "Research" },
+    { "team_name": "Operations", "team_lead": "Kavya", "lead_email": "kavya@flairex.net", "department": "Operations" }
+  ]
+}
