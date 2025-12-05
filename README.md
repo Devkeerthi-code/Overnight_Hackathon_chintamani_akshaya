@@ -68,4 +68,4 @@ http://127.0.0.1:5000/
 
 4. pip install groq
 
-
+Download the pdf files from the (filename you stored the check_1, check_2)  and the. Upload those files Manually.
