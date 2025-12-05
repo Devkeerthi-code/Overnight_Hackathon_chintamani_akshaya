@@ -12,23 +12,31 @@ This project is a simple, lightweight system for uploading multiple PDF files th
 Previous Requirements 
 1. Create a static
 2. create css and js in static directory
-3. In css upload base.css, and landing.css file
-4. In js upload landing.js
+3. In css upload all css files 
+4. In js upload all js files 
 
 # File Structure
 
 /HACKATHON
 1. app.py
-2. templates
-   landing.html
-3. static
+2. pdf_utils.py
+3. templates/
+   landing.html,
+   output.html
+4. static
    css/
-           landing.css
-           base.css
+           landing.css,
+           base.css,
+           output.css,
+   
    js/
-           landing.js
+           landing.js,
+           output.js,
+   
 
-4. uplaods
+6. uplaods/
+7. texts/
+
    
    
 
@@ -37,12 +45,15 @@ Frontend:
 1. Choose PDF's manually
 2. Shows list of selected files
 3. Sends files to server using FormData() and fetch()
+4. Use JSON and display the output in the output.html
 
 Backend:
 1. Recives files on /upload_handler (POST)
 2. Saves them safely using secure_filename
 3. stores everything in uploads/ directory
 4. Returns a json response confirming how many files were saved
+5. Use pyPDF to convert the pdf uploaded into text
+6. Use text generated in GroqAPI to generate output in JSON
 
 # Run the App 
 
@@ -54,4 +65,7 @@ python "app.py"
 
 3. Open your brower and visit
 http://127.0.0.1:5000/
+
+4. pip install groq
+
 
